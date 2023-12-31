@@ -24,3 +24,9 @@ To run the project in your local environment, follow these steps:
 2. Run `npm install` or `yarn` in the project directory to install the required dependencies.
 3. Run `npm run dev` or `yarn dev` to get the project started.
 4. Open [http://localhost:3000](http://localhost:3000) (or the address shown in your console) in your web browser to view the app.
+
+## 📸 - Demo
+
+<img src='https://raw.githubusercontent.com/RahimGuerfi/follow-mouse/main/public/assets/images/demo-follow-mouse.gif' width="100%"/>
+
+Happy New Year 2024 🎉🎆
