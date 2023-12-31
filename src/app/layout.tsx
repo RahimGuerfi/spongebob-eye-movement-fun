@@ -6,7 +6,7 @@ import { Lato } from 'next/font/google';
 
 import { cn } from '@/lib/utils';
 
-export const fontSans = Lato({
+const fontSans = Lato({
   subsets: ['latin'],
   variable: '--font-lato',
   weight: ['100', '300', '400', '700', '900']
