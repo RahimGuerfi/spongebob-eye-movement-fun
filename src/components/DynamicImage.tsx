@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { cn } from '@/lib/utils';
-import { useMousePosition } from '@/hooks/useMousePosition';
+import { useMousePositionRelativeToElement } from '@/hooks/useMousePositionRelativeToElement';
 
 type Props = {
   src: string;
@@ -9,7 +9,8 @@ type Props = {
 };
 
 const DynamicImage = ({ src, alt }: Props) => {
-  const [mousePosition, ref] = useMousePosition<HTMLDivElement>();
+  const [mousePosition, ref] =
+    useMousePositionRelativeToElement<HTMLDivElement>();
 
   return (
     <div className="overflow-hidden rounded-lg shadow-sm border" ref={ref}>
@@ -20,7 +21,7 @@ const DynamicImage = ({ src, alt }: Props) => {
         alt={alt}
         className={cn(
           'scale-[3.05]',
-          mousePosition.isUp && 'origin-top',
+          mousePosition.isTop && 'origin-top',
           mousePosition.isTopRight && 'origin-top-right',
           mousePosition.isRight && 'origin-right',
           mousePosition.isBottomRight && 'origin-bottom-right',
