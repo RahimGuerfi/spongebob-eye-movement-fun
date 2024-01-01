@@ -1,6 +1,6 @@
 ## 🖱️ Follow Mouse App
 
-Mouse your computer mouse around the screen and see how the images react to your movements.
+Move your computer mouse around the screen and see how the images react to your movements.
 
 ## ⚡ Technologies
 
