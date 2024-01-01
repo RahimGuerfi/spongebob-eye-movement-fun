@@ -4,28 +4,28 @@ import DynamicImage from '@/components/DynamicImage';
 
 const items = [
   {
-    src: '/assets/images/nine-directions-eyes.jpg',
-    alt: 'image 1'
+    src: '/assets/images/spong-bob.png',
+    alt: 'spong bob 1'
   },
   {
-    src: '/assets/images/nine-directions-eyes.jpg',
-    alt: 'image 2'
+    src: '/assets/images/spong-bob.png',
+    alt: 'spong bob 2'
   },
   {
-    src: '/assets/images/nine-directions-eyes.jpg',
-    alt: 'image 3'
+    src: '/assets/images/spong-bob.png',
+    alt: 'spong bob 3'
   },
   {
-    src: '/assets/images/nine-directions-eyes.jpg',
-    alt: 'image 4'
+    src: '/assets/images/spong-bob.png',
+    alt: 'spong bob 4'
   },
   {
-    src: '/assets/images/nine-directions-eyes.jpg',
-    alt: 'image 5'
+    src: '/assets/images/spong-bob.png',
+    alt: 'spong bob 5'
   },
   {
-    src: '/assets/images/nine-directions-eyes.jpg',
-    alt: 'image 6'
+    src: '/assets/images/spong-bob.png',
+    alt: 'spong bob 6'
   }
 ];
 

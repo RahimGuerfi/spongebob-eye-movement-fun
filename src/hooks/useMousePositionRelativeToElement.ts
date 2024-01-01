@@ -16,15 +16,15 @@ type TMousePosition = {
 
 export const useMousePositionRelativeToElement = <T extends HTMLElement>() => {
   const [state, setState] = useState<TMousePosition>({
-    isTop: false,
+    isTop: true,
     isTopRight: false,
     isRight: false,
     isBottomRight: false,
-    isBottom: false,
+    isBottom: true,
     isBottomLeft: false,
     isLeft: false,
     isTopLeft: false,
-    isFront: true
+    isFront: false
   });
 
   const ref = useRef<T>(null);
