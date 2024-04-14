@@ -33,9 +33,10 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-6 p-6 min-h-screen">
       <div>
-        <p className="text-xl font-bold">Follow the mouse app</p>
+        <p className="text-xl font-bold">🌊 SPONGEBOB EYE-MOVEMENT FUN</p>
         <p className="text-sm text-muted-foreground">
-          Move the mouse around and see the magic ✨
+          Start moving your mouse to see SpongeBob Eye-Movement Fun in action.
+          ✨
         </p>
       </div>
 
